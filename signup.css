@@ -1,0 +1,82 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+    background: linear-gradient(white, #f0f0f0);
+}
+
+/* Style the Sign Up section */
+.signup {
+    background: linear-gradient(#f0f0f0, #ddd); /* Background for Sign Up section */
+    padding: 80px 0;
+}
+
+.signup-content {
+    margin: 0 auto; /* Center the content */
+    width: 60%; /* Set the width of the content */
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px; /* Add a shadow to the sign-up form */
+}
+
+.signup h2 {
+    font-size: 2rem;
+    font-weight: bold; /* Make the heading bold */
+    margin-bottom: 20px;
+}
+
+/* Style the sign-up form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold; /* Make labels bold */
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Style the Sign Up button */
+.signup-btn {
+    display: inline-flex;
+    padding: 1rem 1.2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #121212;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    justify-content: center;
+    line-height: 1;
+    margin: 15px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+    white-space: nowrap;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    background-image: none;
+}
+
+.signup-btn:hover {
+    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
