@@ -1,0 +1,32 @@
+#terra {
+    width: 350px;
+    border-radius: 26px;
+    box-shadow: 2px 2px 2px grey;
+
+}
+
+body{
+
+	margin: 60px 150px;
+	background-image: url('https://wallpapercave.com/wp/wp7377647.jpg');
+
+}
+
+#container {
+	font-family: Arial;
+	color: white;
+	text-shadow: 0.2em 0.2em 0.2em grey;
+	padding: 60px 40px;
+	margin: 40px 60px;
+	background-color: white;
+	border-radius: 16px;
+	box-shadow: 5px 5px 2px grey;
+
+}
+
+
+.continente {
+	color: grey;
+	font-family: Arial;
+
+}
