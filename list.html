@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Creation</title>
+    <link rel="stylesheet" href="list.css"> <!-- Include the CSS styles -->
+    <!-- Link to Google Fonts or other fonts you prefer -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Lists</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="list-creation">
+            <div class="list-form">
+                <h2>Create a List</h2>
+                <form>
+                    <label for="list-title">Title</label>
+                    <input type="text" id="list-title" name="list-title" required>
+
+                    <label for="list-description">Description</label>
+                    <textarea id="list-description" name="list-description" rows="4"></textarea>
+
+                    <h3>Add Items</h3>
+                    <div class="item-input">
+                        <input type="text" name="item" placeholder="Item 1" required>
+                        <button class="add-item-btn">Add</button>
+                    </div>
+
+                    <div class="item-list">
+                        <!-- Item list will be dynamically generated here -->
+                    </div>
+
+                    <button type="submit" class="create-list-btn">Create List</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 List Creation Website</p>
+    </footer>
+</body>
+</html>
